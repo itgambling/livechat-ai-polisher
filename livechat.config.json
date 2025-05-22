@@ -1,5 +1,24 @@
 {
     "id": "SOQtL6aHR",
     "name": "AI Chat Polisher",
-    "product": "livechat"
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "5e9de210cdb4d7e94d436d46ebf22734",
+            "type": "javascript_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "itgambling/livechat-ai-polisher",
+            "branch": "main"
+        },
+        "widgets": {
+            "tejPVmtwkP": {
+                "url": "https://github.com/itgambling/livechat-ai-polisher",
+                "placement": "messagebox",
+                "initialState": ""
+            }
+        }
+    }
 }
