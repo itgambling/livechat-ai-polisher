@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LiveChat AI Polisher</title>
+  <script src="https://cdn.livechatinc.com/agent-sdk/3.0/agent.sdk.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 120px;
+      font-size: 16px;
+      padding: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h2>✨ LiveChat AI Polisher</h2>
+  <textarea id="agentInput" placeholder="Type your message here..."></textarea>
+  <button id="polishBtn">Polish with AI ✨</button>
+  <div id="status"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
